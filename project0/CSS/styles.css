@@ -43,8 +43,14 @@ div.content {
     height: auto;
     position: relative;
   }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
+
+  .sidebar a {
+    float: left;
+  }
+
+  div.content {
+    margin-left: 0;
+  }
 }
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
@@ -58,27 +64,108 @@ div.content {
 /* Colours and sizes of the lists */
 ul {
   font-size: 14px;
-  color: green; }
+  color: black;
+}
 
 ol {
-  font-size: 18px;
-  color: green; }
+  font-size: 14px;
+  color: black;
+}
 
-  /* Config of the tables*/
+/* Config of the tables*/
+#estudios {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
-  table {
-    border: 2px solid black;
-    border-collapse: collapse;
-    width: 50%;
-  }
+#estudios td, #estudios th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
 
-  th,
-  td {
-    border: 1px solid black;
-    padding: 5px;
-    text-align: center;
-  }
+#estudios tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 
-  th {
-    background-color: lightgrey;
-  }
+#estudios tr:hover {
+  background-color: #ddd;
+}
+
+#estudios th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* other tipe of table
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  background-color: #f1f1f1;
+}
+*/
+/* Put text over the picture */
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 80%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-style: oblique;
+  color: rgb(52, 48, 38);
+}
+
+img {
+  width: 80%;
+  height: auto;
+  opacity: 0.7;
+}
+
+/* Hypertext config */
+h3 {
+  background-color: #4CAF50;
+  color: white;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+/* Body config */
+body {
+  background-color: white;
+  color: black;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+/* Links ID and table property*/
+
+#links a:visited {
+  color: white;
+}
+
+/* mouse over link */
+#links a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+#links a:active {
+  color: blue;
+}
