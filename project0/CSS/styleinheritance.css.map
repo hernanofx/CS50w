@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,iBAAiB;AACjB,UAAW;EACT,QAAQ,EAAE,QAAQ",
+"sources": ["styleinheritance.scss"],
+"names": [],
+"file": "styleinheritance.css"
+}

@@ -1,0 +1,9 @@
+/*Variables */
+$bgcolor: #4CAF50;
+$textcolor: white;
+
+/* Use the variables */
+h3 {
+  background-color: $bgcolor;
+  color: $textcolor;
+}

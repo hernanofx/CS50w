@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,cAAc;AAId,uBAAuB;AACvB,EAAG;EACD,gBAAgB,EALR,OAAO;EAMf,KAAK,EALK,KAAK",
+"sources": ["stylevariables.scss"],
+"names": [],
+"file": "stylevariables.css"
+}
